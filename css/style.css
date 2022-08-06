@@ -1,0 +1,31 @@
+* { margin: 0; padding: 0; }
+.navbar { background-color: #be1622; }
+
+.linka { color: #fff!important; }
+.main-section { position: relative; background: linear-gradient(rgba(0, 0, 0, .7), rgba(235, 82, 73, .7), rgba(0, 0, 0, .7)),url('../images/logo/clothingstore3-1.jpg'); height: 500px; background-size: cover; }
+.main-section i { font-size: 35px; color: #fff; position: absolute; left: 50%; bottom: 15px; transform: translateX(-50%); }
+.main-section .section-part { color: #fff; position: absolute; top: 50%; transform: translateY(-50%); }
+@-webkit-keyframes blinker {
+  from { opacity: 1.0; }
+  to { opacity: 0.0; }
+}
+.blink { text-decoration: blink; -webkit-animation-name: blinker; -webkit-animation-duration: 0.6s; -webkit-animation-iteration-count: infinite; -webkit-animation-timing-function: ease-in-out; -webkit-animation-direction: alternate; }
+/* products  */
+.notshow { display: none; }
+.show { display: block; }
+/* end produxt */
+/* items */
+.showitem { 
+    text-align: -webkit-center;
+    padding: 90px;
+}
+.img{
+    max-width: 15% !important;
+}
+.cartheading{
+    color: #577A9B;
+}
+.read{
+    cursor: pointer;
+    color: blue !important;
+}
